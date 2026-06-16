@@ -10,7 +10,7 @@ window.geometry('500x300')
 window.title('CALCULATOR')
 
 display = StringVar()
-entry = Entry(window, textvariable=display,bg="#E8F0FE",fg="#DE1818",font=("Arial", 12),width=30)
+entry = Entry(window, textvariable=display,bg="#E8F0FE",fg="#DE1818",font=("Arial", 13),width=30,justify="center")
 entry.grid(columnspan=5, ipadx=100,ipady=15)
 
 def p(key):
